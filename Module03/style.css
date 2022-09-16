@@ -30,5 +30,15 @@ footer a:hover {
     color: palevioletred;
 }
 
+a[href="https://aespa-official.jp/"]
+{
+  color: green;
+}
+
+a[href="https://kprofiles.com/aespa-profile/"]
+{
+  color: orangered;
+}
+
 
 
