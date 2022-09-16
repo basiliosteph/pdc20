@@ -1,6 +1,8 @@
 h3 {
     color: red;
     font-weight: bolder;
+    margin-bottom: 1em;
+    letter-spacing: .0em;
 }
 
 #textcolor {
