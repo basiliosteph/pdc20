@@ -1,0 +1,34 @@
+h3 {
+    color: red;
+}
+
+#textcolor {
+    color: gray;
+}
+
+.textclass {
+    color: palevioletred;
+}
+
+div.second > p {
+    color: plum;
+}
+
+.colorhead {
+    color: pink;
+}
+
+footer:hover {
+    color: cyan;
+}
+
+div.nav a:hover {
+    color: violet;
+}
+
+footer a:hover {
+    color: palevioletred;
+}
+
+
+

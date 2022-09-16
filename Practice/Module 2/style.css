@@ -1,0 +1,33 @@
+body {
+    background-color: navajowhite;
+}
+
+h1 {
+    color: mediumpurple;
+    text-align: center;
+}
+
+/* *{
+    color: cornflowerblue;
+} */
+
+#textcolor {
+    color: honeydew;
+}
+
+.testclass {
+    color: yellow;
+}
+
+div.second > p {
+    background-color: tomato;
+}
+
+section:hover{
+    background-color: blue;
+}
+
+hgroup:hover{
+    background-color: blueviolet;
+}
+
