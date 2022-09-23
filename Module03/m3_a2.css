@@ -1,0 +1,79 @@
+h3 {
+    color: red;
+    font-weight: bolder;
+    margin-bottom: 1em;
+    letter-spacing: .0em;
+}
+
+#textcolor {
+    color: gray;
+}
+
+.textclass {
+    color: palevioletred;
+}
+
+div.second > p {
+    color: plum;
+}
+
+.colorhead {
+    color: pink;
+}
+
+footer:hover {
+    color: cyan;
+}
+
+div.nav a:hover {
+    color: violet;
+}
+
+footer a:hover {
+    color: palevioletred;
+}
+
+a[href="https://aespa-official.jp/"]
+{
+  color: green;
+}
+
+a[href="https://kprofiles.com/aespa-profile/"]
+{
+  color: orangered;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 20px;
+    color: darksalmon;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.active{
+    background-color: darkkhaki;
+    color:moccasin
+}
+
+li a:hover:not(.active){
+    background-color: rgb(79, 139, 0);
+    color: rgb(243, 213, 116);
+}
+
+
+

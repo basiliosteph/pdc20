@@ -1,0 +1,30 @@
+li a{
+    display: block;
+    /* width: 100px; */
+    color:steelblue;
+    /* background-color:darkorange; */
+    text-decoration-line: none;
+    /* float: right; */
+    padding: 8px 16px;
+}
+
+ul{
+    background-color:darkorange;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a:hover:not(.active){
+    background-color: burlywood;
+    color: darkgoldenrod;
+}
+
+li a.active{
+    background-color: khaki;
+    color: olive;
+}
