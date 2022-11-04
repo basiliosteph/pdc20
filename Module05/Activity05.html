@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type = "text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <!-- Polymorphism -->
+    <script>
+        class brandA
+        {
+            display ()
+            {
+                document.writeln("Brand A: BMW <br>");
+            }
+        }
+
+        class brandB extends brandA
+        {
+            display ()
+            {
+                document.writeln("Brand B: Ferrari");
+            }
+        }
+
+        var a = [new brandA(), new brandB()]
+        a.forEach(function(msg)
+        {
+            msg.display();
+
+        });
+
+
+
+    </script>
+</body>
+</html>

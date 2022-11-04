@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+    <script>
+        // Abstraction
+        
+        function vehicle()
+        {
+            this.vehicleType= "vehicleType";
+        }
+        vehicle.prototype.display = function()
+        {
+            return "The brand is: " + this.vehicleType;
+        }
+
+        function MyCar(vehicleType)
+        {
+            this.vehicleType = vehicleType;
+        }
+        MyCar.prototype=Object.create(vehicle.prototype);
+        var MyCar = new MyCar("Tesla");
+
+        alert(MyCar.display());
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
