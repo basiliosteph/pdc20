@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app> <!-- Entire HTML page ng-app -->
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-app> <!-- Particular Div Class ng-app -->
+      <h2>Please enter your name: </h2>
+      <input type="text" ng-model="nameControl"> <!-- ng-model  -->
+      <!-- <h3> Hi {{nameControl}}! </h3> ng-bind another version -->
+
+      <h3> Hi {{nameControl|lowercase}}! </h3> <!-- filter string -->
+
+      <!-- <h3 ng-bind="nameControl"> Hi </h3> -->
+      <!-- <p ng-bind="nameControl"></p>  -->
+    </div>
+  </body>
+</html>

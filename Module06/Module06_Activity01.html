@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <title>Angular JS</title>
+</head>
+<body>
+    <div>
+        <h1>Angular JS</h1>
+        <p>Kindly enter your name: </p>
+        <input type="text" ng-model="name">
+        <h2>Hello {{name}}, welcome to the page!</h2>
+    </div>
+
+    <div>
+        <br>
+        <h1>Price Calculator</h1>
+        <label>Item 1: </label>
+        <input type="number" ng-model="item1">
+        <label>Item 2: </label>
+        <input type="number" ng-model="item2">
+        <p>Total of your purchase is: {{item1 + item2 | currency:"₱"}}</p>
+    </div>
+
+    <br>
+    <div ng-init="color='Black'; clothing='T-shirt'">
+        <h1>Item Bought: {{color + " " + clothing}}</h1>
+    </div> 
+    <div ng-init="num1=100"> 
+        <p>The total of the item is: {{num1 | currency:"₱"}} </p> 
+    </div> 
+
+    
+</body>
+</html>
