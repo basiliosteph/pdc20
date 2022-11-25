@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<!-- ng-if  -->
+<body ng-app="">
+    Register Now? <input type="checkbox" ng-model="myVar" ng-init="myVar=false">
+    Login? <input type="checkbox" ng-model="login" ng-init="login">
+
+    <div ng-if="myVar">
+        <p> Sign In </p>
+        <label> Username </label>
+        <input type="text">
+
+        <label> Password </label>
+        <input type="text">
+    </div>
+
+    <div ng-if="login">
+        <p> Login </p>
+        <label> Username </label>
+        <input type="text">
+
+        <label> Password </label>
+        <input type="text">
+    </div>
+
+<!-- ng-readonly -->
+    <div>
+        <label> Click me to make text readonly: </label>
+        <input type="checkbox" ng-model="checked"> <br>
+
+        <input type="text" ng-readonly="checked" value=""/>
+    </div>
+
+<!-- ng-disabled -->
+    <div>
+        <label> Click me to make text disabled: </label>
+        <input type="checkbox" ng-model="checked1"> <br>
+
+        <input type="text" ng-disabled="checked1" value=""/>
+    </div>
+
+<!-- ng-show -->
+    <div>
+        <label> Click me to make text disabled: </label>
+        <input type="checkbox" ng-model="checked2"> <br>
+
+        <input type="text" ng-show="checked2" value=""/>
+    </div>
+
+<!-- ng-hide -->
+<div>
+    <label> Click me to make text disabled: </label>
+    <input type="checkbox" ng-model="checked3"> <br>
+
+    <input type="text" ng-hide="checked3" value=""/>
+</div>
+</body>
+</html>
